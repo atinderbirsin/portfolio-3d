@@ -57,7 +57,7 @@
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
+  min-height: 88%;
   padding: 40px 50px;
 }
 
@@ -282,7 +282,7 @@
   }
 
   .what-box-in {
-    height: 400px;
+    height: 200px;
   }
 
   .what-content h3 {
@@ -347,7 +347,7 @@
 
   .what-noTouch:hover,
   .what-content-active {
-    min-height: 67%;
+    min-height: 88% !important;
     padding: 50px;
   }
 

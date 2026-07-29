@@ -70,18 +70,18 @@ const SocialIcons = () => {
             <FaLinkedinIn />
           </a>
         </span>
-        <span>
-          <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
+        {/* <span> */}
+          {/* <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
             <FaXTwitter />
-          </a>
-        </span>
+          </a> */}
+        {/* </span> */}
         <span>
           <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="https://bbbblboikskxfluc.public.blob.vercel-storage.com/atinder-bir-singh-a821Tm9fZzJmj3yS6OiPn3sABkPrBw.pdf">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

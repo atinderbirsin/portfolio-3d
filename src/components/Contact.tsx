@@ -93,7 +93,7 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
+            {/* <a
               href={config.contact.twitter}
               target="_blank"
               rel="noopener noreferrer"
@@ -101,7 +101,7 @@ const Contact = () => {
               className="contact-social"
             >
               Twitter <MdArrowOutward />
-            </a>
+            </a> */}
             <a
               href={config.contact.facebook}
               target="_blank"
@@ -123,11 +123,8 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
+              <span>{config.developer.fullName}</span>
             </h2>
-            <h5>
-              <MdCopyright /> {new Date().getFullYear()}
-            </h5>
           </div>
         </div>
       </div>
