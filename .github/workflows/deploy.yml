@@ -14,6 +14,12 @@ jobs:
             # Checkout the repository
             - name: Checkout code
               uses: actions/checkout@v7.0.1
+              with:
+                lfs: true
+
+            #  Git pull lfs
+            - name: Pull Git LFS files
+              run: git lfs pull
 
             # Setup node js
             - name: Setup Node.js
