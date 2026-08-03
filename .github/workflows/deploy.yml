@@ -1,6 +1,7 @@
 name: 3d Portfolio
 
 on: 
+    workflow_dispatch:
     push:
         branches:
             - main
